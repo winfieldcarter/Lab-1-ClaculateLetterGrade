@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmCalculateGrade
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -86,7 +86,7 @@ Partial Class frmCalculateGrade
         Label2.Text = "LetterGrade:"
         Label2.TextAlign = ContentAlignment.MiddleLeft
         ' 
-        ' frmCalculateGrade
+        ' Form1
         ' 
         AcceptButton = btnCalculate
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -99,7 +99,7 @@ Partial Class frmCalculateGrade
         Controls.Add(TextBox1)
         Controls.Add(BtnExit)
         Controls.Add(btnCalculate)
-        Name = "frmCalculateGrade"
+        Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Calculate Letter Grade"
         ResumeLayout(False)
